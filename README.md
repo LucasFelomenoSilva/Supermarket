@@ -23,9 +23,10 @@ Main.java > ```private final static int SIZE = \\Tamanho da lista\\;```
 4. Adicione itens à lista usando o método `add(item)`.
 5. Imprima a lista de itens o método `print()`.
 6. Para excluir, forneça o índice do item usando o método `delete(index)`.
-> Para ultilizar os métodos, a classe Main fornece uma interface gráfica simples.
 
-![Print](https://i.imgur.com/DuLVGFI.png)
+> Para ultilizar os métodos, a classe Main fornece uma interface gráfica simples.
+>
+> ![Print](https://i.imgur.com/61rlYCn.png)
 
 ## Autor
 #### Lucas Felomeno Silva
