@@ -18,7 +18,7 @@
 ## Como usar
 1. Clone este repositório para o seu ambiente de desenvolvimento.
 2. Importe o pacote `implementation`
-3. Crie uma instância de 'SupermaketArray' com o tamangho desejado da lista:
+3. Crie uma instância de 'SupermaketArray' com o tamanho desejado da lista:
 Main.java > ```private final static int SIZE = \\Tamanho da lista\\;```
 4. Adicione itens à lista usando o método `add(item)`.
 5. Imprima a lista de itens o método `print()`.
