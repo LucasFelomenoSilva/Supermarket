@@ -21,7 +21,7 @@
 3. Crie uma instância de 'SupermaketArray' com o tamanho desejado da lista:
 Main.java > ```private final static int SIZE = \\Tamanho da lista\\;```
 4. Adicione itens à lista usando o método `add(item)`.
-5. Imprima a lista de itens o método `print()`.
+5. Imprima a lista de itens usando o método `print()`.
 6. Para excluir, forneça o índice do item usando o método `delete(index)`.
 
 > Para ultilizar os métodos, a classe Main fornece uma interface gráfica simples.
