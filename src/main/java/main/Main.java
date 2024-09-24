@@ -1,9 +1,9 @@
 package main;
 
+import java.util.Scanner;
+
 import implementation.Supermarket;
 import implementation.SupermarketArray;
-
-import java.util.Scanner;
 
 public class Main {
 
@@ -13,7 +13,7 @@ public class Main {
         Supermarket supermarket = new SupermarketArray(SIZE);
         int opcao;
         do {
-            System.out.println("\nLista de Compas");
+            System.out.println("\nLista de Compras");
             System.out.println("1 - Inserir");
             System.out.println("2 - Listar");
             System.out.println("3 - Remover");
@@ -23,7 +23,7 @@ public class Main {
 
             switch (opcao) {
                 case 1:
-                    System.out.print("Digite o tem a ser inserido: ");
+                    System.out.print("Digite o item a ser inserido: ");
                     String item = scanner.next();
                     supermarket.add(item);
                     break;
@@ -31,9 +31,10 @@ public class Main {
                     supermarket.print();
                     break;
                 case 3:
-                    System.out.print("Digite a opção do item a ser removido: ");
+                    System.out.print("Digite o código do item a ser excluído: ");
                     int index = scanner.nextInt();
                     supermarket.delete(index);
+                    System.out.println("");
                     break;
                 case 4:
                     System.out.println("Saindo do programa...");
